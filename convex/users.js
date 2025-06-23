@@ -29,10 +29,27 @@ export const CreateUser = mutation({
 
 export const Getuser = query({
     args: {
-        email 
+        email: v.string()
     }, 
     handler: async(ctx,args)=> {
         const user = await ctx.db.query('users').fileter((q)=> q.eq(q.field('email'),args.email)).collect();
         return user[0];
+    }
+})
+
+export const UpdateToken = mutation({
+    args: {
+        email: v.string(),
+        token: v.string()
+    },
+    handler: async(ctx,args)=> {
+        const user = await ctx.db.query('users').filter((q)=> q.eq(q.field('email'),args.email)).collect();
+        if(user?.length>0) {
+            const result = await ctx.db.patch(user[0]._id, {
+                token: args.token
+            });
+            return result;
+        }
+        return null;
     }
 })

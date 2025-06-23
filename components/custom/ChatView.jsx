@@ -1,5 +1,5 @@
 "use client"
-import { useConvex } from 'convex/react';
+import { useConvex, useMutation } from 'convex/react';
 import { useParams } from 'next/navigation'
 import React, { useContext, useEffect } from 'react'
 import ReactMarkdown from 'react-markdown'
@@ -7,6 +7,7 @@ function ChatView() {
     const {id}=useParams();
     const convex = useConvex();
     const {messages, setMessage} = useContext(MessagesContext)
+    const UpdateToken = useMutation(api.users.UpdateToken)
 
     useEffect(()=>{
         id&&GetWorkspaceData();
@@ -42,9 +43,25 @@ function ChatView() {
       {GetAiResponse()}
     }
   })
+  
+  const async = Number(userDetail?.token) - Number(countToken(JSON.stringify(aiResp)));
+  UpdateToken({
+    userId:userDetail?._id,
+    token:token
+  
+  })
+  setLoading(false);
+
+
+  
+
+  
   return (
     <div>ChatView</div>
   )
 }
+
+
+
 
 export default ChatView

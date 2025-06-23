@@ -27,3 +27,13 @@ export const Workspace= query({
         return workspace;
     }
 })
+
+export const GetAllworksppace = query({
+    args: { 
+        userId: v.id('users'),
+    },
+    handler: async(ctx, args) => {
+        const result = await ctx.db.query("workspace").filter((q) => q.eq(q.field("user"), args.userId)).collect();
+        return result;
+    }
+})
