@@ -32,7 +32,7 @@
 |----------|---------|------------|
 | Next.js 14+ | Next.js API Routes | Gemini API Integration |
 | React 18+ | Convex DB | Custom AI Prompting |
-| TypeScript 5+ | NextAuth.js | Code Analysis |
+| Javascript | NextAuth.js | Code Analysis |
 | Tailwind CSS | Serverless Functions | Hot Reload |
 
 ---
