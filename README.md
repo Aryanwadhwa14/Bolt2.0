@@ -266,21 +266,6 @@ A: Yes! Code follows best practices with proper error handling and security.
 
 ---
 
-## 📞 Support
-
-- 📖 **Documentation**: [docs.bolt2.dev](https://docs.bolt2.dev)
-- 💬 **Discord**: [discord.gg/bolt2](https://discord.gg/bolt2)
-- 🐦 **Twitter**: [@Bolt2Dev](https://twitter.com/Bolt2Dev)
-- 📧 **Email**: [support@bolt2.dev](mailto:support@bolt2.dev)
-
----
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) file for details.
-
----
-
 <div align="center">
   <h3>🚀 Ready to Build Something Amazing?</h3>
   <p>
