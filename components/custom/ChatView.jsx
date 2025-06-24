@@ -52,12 +52,35 @@ function ChatView() {
   })
   setLoading(false);
 
-
-  
-
-  
   return (
-    <div>ChatView</div>
+    <>
+      <div>ChatView</div>
+      <div className="flex flex-col h-full p-4 bg-gray-100">
+        <div className="flex-1 overflow-y-auto">
+          {messages.map((msg, index) => (
+            <div key={index} className={`my-2 p-3 rounded-lg ${msg.role === 'ai' ? 'bg-blue-500 text-white' : 'bg-gray-300 text-black'}`}>
+              <ReactMarkdown>{msg.content}</ReactMarkdown>
+            </div>
+          ))}
+        </div>
+        <div className="mt-4">
+          <input
+            type="text"
+            className="w-full p-2 border rounded"
+            placeholder="Type your message..."
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+                // Handle sending message
+              }
+              const newMessage = e.target.value;
+              setMessage(prev => [...prev, { role: 'user', content: newMessage }]);
+              e.target.value = '';
+              GetAiResponse();
+            }}
+          />
+        </div>
+      </div>
+    </>
   )
 }
 
