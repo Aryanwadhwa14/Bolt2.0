@@ -39,3 +39,8 @@ export const ExampleComponent = () => {
     </div>
   );
 };
+
+// Export the context for use in other components
+export default ClientSideContext;
+// Usage in the main application file
+
