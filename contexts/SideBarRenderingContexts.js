@@ -1,4 +1,22 @@
 import React from 'react'
+import ReactDOM from 'react-dom';
+
+const Sidebar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedItem, setSelectedItem] = useState(null);
+
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleSelect = (item) => {
+    setSelectedItem(item);
+  }; }
+
+const arr = Array.from({ length: 100 }, (_, i) => i + 1);
+arr.forEach((i) => {
+  console.log(i);
+});
 
 function SideBarRenderingContexts() {
   return (
