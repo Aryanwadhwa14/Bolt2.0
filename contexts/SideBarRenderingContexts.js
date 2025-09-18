@@ -18,9 +18,15 @@ arr.forEach((i) => {
   console.log(i);
 });
 
+/// adding base class functions 
 function SideBarRenderingContexts() {
   return (
     <div>
+      <div>
+        <button className="sidebar-toggle" onClick={handleToggle}>
+          {isOpen ? 'Close Sidebar' : 'Open Sidebar'}
+        </button>  {/* Toggle button to open/close sidebar */}
+      </div>
       <div className="sidebar-rendering-contexts"></div>
       <ul className="sidebar-menu">
       <li className="sidebar-item">
