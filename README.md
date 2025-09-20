@@ -97,25 +97,25 @@ Bolt2.0 analyzes your prompt and generates:
 ```
 "Build an online store with product catalog, shopping cart, payment integration, and admin dashboard"
 ```
-<img src="./screenshots/ecommerce.png" alt="E-commerce Store Preview" width="350"/>
+<img src="./screenshots/ecommerce.png" alt="E-commerce Store Preview" width="500"/>
 
 **Social Media App:**
 ```
 "Create a social platform with user posts, comments, likes, and real-time notifications"
 ```
-<img src="./screenshots/social-media.png" alt="Social Media App Preview" width="350"/>
+<img src="./screenshots/social-media.png" alt="Social Media App Preview" width="500"/>
 
 **Learning Platform:**
 ```
 "Build an online course platform with video lessons, progress tracking, and certificates"
 ```
-<img src="./screenshots/course-learning.png" alt="Learning Platform Preview" width="350"/>
+<img src="./screenshots/course-learning.png" alt="Learning Platform Preview" width="500"/>
 
 **Project Management:**
 ```
 "Create a task management tool with team collaboration, time tracking, and reporting"
 ```
-<img src="./screenshots/todo.png" alt="Project Management Preview" width="350"/>
+<img src="./screenshots/todo.png" alt="Project Management Preview" width="500"/>
 
 ---
 
