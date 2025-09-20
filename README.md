@@ -65,7 +65,7 @@ NEXTAUTH_URL=http://localhost:3000
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see the magic! 🎉
+Open [http://localhost:3000](http://localhost:3000) to see the magic! 
 
 ---
 
