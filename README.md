@@ -65,7 +65,7 @@ NEXTAUTH_URL=http://localhost:3000
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see the magic! 🎉
+Open [http://localhost:3000](http://localhost:3000) to see the magic! 
 
 ---
 
@@ -91,7 +91,7 @@ Bolt2.0 analyzes your prompt and generates:
 
 ---
 
-## 🎯 Example Prompts
+## 🎯 Example Prompts 
 
 **E-commerce Store:**
 ```
@@ -259,7 +259,7 @@ A: Bolt2.0 creates production-ready, full-stack Next.js apps with complete TypeS
 A: Yes! All code is fully editable and exportable. You own it completely.
 
 **Q: What databases are supported?**
-A: PostgreSQL, MySQL, SQLite, and MongoDB through Prisma ORM.
+A: PostgreSQL, MySQL, SQLite, and ConvexDB through Prisma ORM.
 
 **Q: Is it production-ready?**
 A: Yes! Code follows best practices with proper error handling and security.
