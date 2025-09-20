@@ -91,7 +91,7 @@ Bolt2.0 analyzes your prompt and generates:
 
 ---
 
-## 🎯 Example Prompts
+## 🎯 Example Prompts 
 
 **E-commerce Store:**
 ```
