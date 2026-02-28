@@ -1,4 +1,4 @@
-# 🚀 Bolt2.0 - AI Website Maker
+# Bolt2.0 - AI Website Maker
 
 <div align="center">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
@@ -9,16 +9,16 @@
 
 <div align="center">
   <h3>Transform Simple Prompts into Complete Next.js Applications</h3>
-  <p>🎯 <strong>No Templates • No Fluff • Just Clean, Scalable Code</strong></p>
+  <p> <strong>No Templates • No Fluff • Just Clean, Scalable Code</strong></p>
 </div>
 
 ---
 
-## ✨ What is Bolt2.0?
+##  What is Bolt2.0?
 
 **Bolt2.0** is an AI-powered web development platform that transforms natural language prompts into production-ready, full-stack Next.js applications. Generate complete folder structures, typed components, API routes, and deployable code in minutes.
 
-### 🎨 Key Features
+###  Key Features
 - **Prompt-to-Production**: From idea to deployment in minutes
 - **TypeScript-First**: Fully typed, enterprise-ready code
 - **Zero Templates**: Custom-generated, unique solutions
@@ -26,7 +26,7 @@
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Frontend | Backend | AI & Tools |
 |----------|---------|------------|
@@ -37,7 +37,7 @@
 
 ---
 
-## 🚦 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -69,7 +69,7 @@ Open [http://localhost:3000](http://localhost:3000) to see the magic!
 
 ---
 
-## 📖 How to Use
+## How to Use
 
 ### 1. **Describe Your Vision**
 ```
@@ -91,7 +91,7 @@ Bolt2.0 analyzes your prompt and generates:
 
 ---
 
-## 🎯 Example Prompts 
+## Example Prompts 
 
 <img src="./screenshots/ecommerce.png" alt="E-commerce Store Preview" width="700" height="700"/>
 
@@ -115,7 +115,7 @@ Bolt2.0 analyzes your prompt and generates:
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 Bolt2.0/
@@ -133,7 +133,7 @@ Bolt2.0/
 
 ---
 
-## 🎨 Generated Code Example
+##  Generated Code Example
 
 ```typescript
 // Generated React Component
@@ -165,7 +165,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
 
 ---
 
-## 📚 API Reference
+## API Reference
 
 ### Generate Project
 
@@ -195,7 +195,7 @@ Content-Type: application/json
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Vercel (Recommended)
 ```bash
@@ -221,7 +221,7 @@ CMD ["npm", "start"]
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create feature branch: `git checkout -b feature/amazing-feature`
@@ -230,15 +230,15 @@ CMD ["npm", "start"]
 5. Open a Pull Request
 
 ### Areas for Contribution
-- 🎨 UI/UX improvements
-- 🧠 AI model enhancements
-- 🔧 Framework support (Vue, Angular)
-- 🗄️ Database integrations
-- 📚 Documentation
+-  UI/UX improvements
+-  AI model enhancements
+-  Framework support (Vue, Angular)
+-  Database integrations
+-  Documentation
 
 ---
 
-## 📊 Performance
+##  Performance
 
 | Metric | Score |
 |--------|-------|
@@ -250,7 +250,7 @@ CMD ["npm", "start"]
 
 ---
 
-## 💡 FAQ
+##  FAQ
 
 **Q: How is this different from other AI generators?**
 A: Bolt2.0 creates production-ready, full-stack Next.js apps with complete TypeScript support, not templates.
@@ -267,7 +267,7 @@ A: Yes! Code follows best practices with proper error handling and security.
 ---
 
 <div align="center">
-  <h3>🚀 Ready to Build Something Amazing?</h3>
+  <h3> Ready to Build Something Amazing?</h3>
   <p>
     <a href="https://github.com/Aryanwadhwa14/Bolt2.0/fork">
       <img src="https://img.shields.io/github/forks/Aryanwadhwa14/Bolt2.0?style=social" alt="Fork" />
