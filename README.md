@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/AI-Powered-FF6B35?style=for-the-badge&logo=openai&logoColor=white" alt="AI Powered" />
 </div>
 
-<div align="center">
+<div align="center"> 
   <h3>Transform Simple Prompts into Complete Next.js Applications</h3>
   <p> <strong>No Templates • No Fluff • Just Clean, Scalable Code</strong></p>
 </div>
