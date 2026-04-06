@@ -9,7 +9,7 @@ const logMessage = (type, message) => {
 };
 
 // Utility function for validating input
-const validateInput = (input) => {
+const validateInput = (input) => {   //validate functionality for better recall 
   if (!input || input.trim() === '') {
     return 'Input cannot be empty.';
   }
